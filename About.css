@@ -1,0 +1,76 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: serif;
+    color: black;
+    /* background-image:url("https://player.vimeo.com/external/377097509.sd.mp4?s=f776f62d31312f1b2204808ed738f2ad61b81526&profile_id=164&oauth2_token_id=57447761"); */
+  }
+  
+  .container {
+    max-width: 90rem;
+    margin: 2rem auto;
+    padding: 0px 2rem;
+  }
+  
+  .img-fluid {
+    max-width: 100%;
+  }
+  .logo img {
+    width: 70px;
+    height: 70px;
+    border-radius: 41px;
+    outline: 4px solid red;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    align-items: center;
+    box-shadow: 5px 10px 100px black;
+  }
+  
+  .items {
+    display: flex;
+    align-items: center;
+    color: black;
+    gap: 30px;
+  }
+  
+  .items a:link {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .items a:hover {
+    color: red;
+  }
+  
+  .active {
+    color: red !important;
+  }
+  
+  button {
+    font-size: 2rem;
+    padding: 0.6rem 1rem;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(to right, #c31432, #892211);
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  button:hover {
+    background: white;
+    outline: 1px solid red;
+    color: red;
+    border: none;
+  }
+  
